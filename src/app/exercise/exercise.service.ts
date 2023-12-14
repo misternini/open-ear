@@ -10,6 +10,7 @@ import { notesInKeyExercise } from './exercises/NotesInKeyExercise/notesInKeyExe
 import { chordTypeExercise } from './exercises/ChordTypeInKeyExercise/chordTypeInKeyExercise';
 import { chordInKeyExercise } from './exercises/ChordInKeyExercise/chordsInKeyExercise';
 import { commonChordProgressionExercise } from './exercises/CommonChordProgressionExercise/commonChordProgressionsExercise';
+import { scaleIdExercise } from './exercises/ScaleIdentification/scaleIdentificationExercise';
 
 const exerciseList: Exercise[] = [
   notesInKeyExercise(),
@@ -20,6 +21,7 @@ const exerciseList: Exercise[] = [
   notesWithChordsExercise(),
   triadInversionExercise(),
   intervalExercise(),
+  scaleIdExercise(),
 ];
 
 @Injectable({
